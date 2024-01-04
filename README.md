@@ -1,1 +1,1 @@
-# Neovim C++ Configuration
+# Jabba's Neovim C++ Configuration
