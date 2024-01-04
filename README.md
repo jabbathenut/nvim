@@ -1,2 +1,1 @@
-# nvim
-Neovim C++ Configuration
+# Neovim C++ Configuration
