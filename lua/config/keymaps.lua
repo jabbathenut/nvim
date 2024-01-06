@@ -12,6 +12,11 @@ keymap.set("n", "<C-j>", "<C-w>j", opts) -- Down
 keymap.set("n", "<C-k>", "<C-w>k", opts) -- Up
 keymap.set("n", "<C-l>", "<C-w>l", opts) -- Right
 
+keymap.set("t", "<C-h>", "<cmd>wincmd h<CR>", opts) -- Left
+keymap.set("t", "<C-j>", "<cmd>wincmd j<CR>", opts) -- Down
+keymap.set("t", "<C-k>", "<cmd>wincmd k<CR>", opts) -- Up
+keymap.set("t", "<C-l>", "<cmd>wincmd l<CR>", opts) -- Right
+
 -- Indenting
 keymap.set("v", "<", "<gv", opts)
 keymap.set("v", ">", ">gv", opts)
@@ -53,7 +58,6 @@ local leader = {
 	},
 	t = {
 		name = "+Terminal",
-		b = { "<cmd>ToggleTerm<CR>", "Below" },
 		f = { toggle_float, "Floating" },
 	},
 	T = { "<cmd>TagbarToggle<CR>", "Ctags Toggle" },

@@ -4,7 +4,7 @@ return {
 		local toggleterm = require("toggleterm")
 
 		toggleterm.setup({
-			size = 20,
+			size = 10,
 			open_mapping = [[<c-\>]],
 			shade_filetypes = {},
 			shade_terminal = true,
