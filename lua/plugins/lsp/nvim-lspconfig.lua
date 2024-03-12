@@ -42,7 +42,7 @@ return {
 		lspconfig.clangd.setup({
 			capabilities = lsp_capabilities,
 			on_attach = function(client, bufnr)
-				client.server_capabilities.signatureHelpProvider = false
+				-- client.server_capabilities.signatureHelpProvider = false
 				lsp_attachments(client, bufnr)
 			end,
 			cmd = {
