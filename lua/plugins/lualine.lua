@@ -19,9 +19,12 @@ return {
 					{
 						"fileformat",
 						symbols = {
-							unix = "", -- U+e712 (changed to U+e711 to show mac symbol)
-							dos = "", -- U+e70f
-							mac = "", -- U+e711
+							unix = "", -- U+E6AE
+							dos = "", -- U+E6AE
+							mac = "", -- U+E6AE
+							-- unix = "", -- U+e712 (changed to U+e711 to show mac symbol)
+							-- dos = "", -- U+e70f
+							-- mac = "", -- U+e711
 						},
 					},
 				},
